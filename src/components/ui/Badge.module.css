@@ -1,0 +1,46 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+/* --- Color variants --- */
+
+.default {
+  background-color: rgba(168, 146, 121, 0.15);
+  color: var(--color-earth);
+}
+
+.terracotta {
+  background-color: rgba(196, 87, 42, 0.12);
+  color: var(--color-terracotta);
+}
+
+.sage {
+  background-color: rgba(122, 145, 120, 0.15);
+  color: var(--color-sage);
+}
+
+.ochre {
+  background-color: rgba(212, 148, 58, 0.15);
+  color: #B07D2E;
+}
+
+.burgundy {
+  background-color: rgba(139, 58, 58, 0.12);
+  color: var(--color-burgundy);
+}
+
+.indigo {
+  background-color: rgba(74, 85, 104, 0.12);
+  color: var(--color-indigo);
+}

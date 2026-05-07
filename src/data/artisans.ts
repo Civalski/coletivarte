@@ -1,0 +1,102 @@
+/* ============================================
+   Mock Artisan Data
+   Realistic artisan profiles for development.
+   ============================================ */
+
+import type { Artisan } from '@/modules/users/user.types';
+
+export const artisans: Artisan[] = [
+  {
+    id: 'artisan_001',
+    email: 'marina@coletivarte.com',
+    name: 'Marina Oliveira',
+    role: 'artisan',
+    slug: 'marina-oliveira',
+    bio: 'Ceramista autodidata do interior de Minas Gerais. Cada peça que crio carrega a história do barro e da minha terra. Trabalho com argila natural e esmaltes botânicos, buscando formas orgânicas que conectam quem usa à natureza.',
+    specialty: 'Cerâmica',
+    location: 'Tiradentes, MG',
+    avatarUrl: '/images/artisans/artisan-01.png',
+    bannerUrl: null,
+    socialLinks: {
+      instagram: '@marina.ceramica',
+      whatsapp: '5531999990001',
+    },
+    isVerified: true,
+    createdAt: new Date('2024-03-15'),
+    updatedAt: new Date('2025-01-10'),
+  },
+  {
+    id: 'artisan_002',
+    email: 'rafael@coletivarte.com',
+    name: 'Rafael Santos',
+    role: 'artisan',
+    slug: 'rafael-santos',
+    bio: 'Marceneiro e escultor. Transformo madeira de demolição e troncos caídos em móveis e objetos que contam histórias. Cada nó, cada veio da madeira é respeitado e celebrado no meu trabalho.',
+    specialty: 'Madeira',
+    location: 'Paraty, RJ',
+    avatarUrl: '/images/artisans/artisan-02.png',
+    bannerUrl: null,
+    socialLinks: {
+      instagram: '@rafa.madeira',
+      website: 'https://rafaelsantos.art',
+    },
+    isVerified: true,
+    createdAt: new Date('2024-05-20'),
+    updatedAt: new Date('2025-02-14'),
+  },
+  {
+    id: 'artisan_003',
+    email: 'lucia@coletivarte.com',
+    name: 'Lúcia Tecelã',
+    role: 'artisan',
+    slug: 'lucia-tecela',
+    bio: 'Tecelã e tintureira natural. Uso fibras orgânicas e tinturas extraídas de plantas do cerrado para criar peças têxteis únicas. Meu tear é minha tela, e cada fio conta uma história ancestral.',
+    specialty: 'Têxteis',
+    location: 'Alto Paraíso, GO',
+    avatarUrl: null,
+    bannerUrl: null,
+    socialLinks: {
+      instagram: '@lucia.tecela',
+    },
+    isVerified: true,
+    createdAt: new Date('2024-06-01'),
+    updatedAt: new Date('2025-03-22'),
+  },
+  {
+    id: 'artisan_004',
+    email: 'tomaz@coletivarte.com',
+    name: 'Tomaz Vieira',
+    role: 'artisan',
+    slug: 'tomaz-vieira',
+    bio: 'Joalheiro artesanal. Crio peças em prata e pedras brasileiras, combinando técnicas tradicionais com design contemporâneo. Cada joia é um talismã, feita para ser carregada como extensão de quem a usa.',
+    specialty: 'Joalheria',
+    location: 'Ouro Preto, MG',
+    avatarUrl: null,
+    bannerUrl: null,
+    socialLinks: {
+      instagram: '@tomaz.joias',
+      website: 'https://tomazvieira.com',
+    },
+    isVerified: false,
+    createdAt: new Date('2024-08-10'),
+    updatedAt: new Date('2025-04-05'),
+  },
+  {
+    id: 'artisan_005',
+    email: 'sol@coletivarte.com',
+    name: 'Sol Pinturas',
+    role: 'artisan',
+    slug: 'sol-pinturas',
+    bio: 'Pintora e muralista. Minha arte é um grito colorido — uso pigmentos naturais e tintas artesanais para criar quadros e murais que celebram a cultura popular brasileira e a resistência dos povos.',
+    specialty: 'Pintura',
+    location: 'Salvador, BA',
+    avatarUrl: null,
+    bannerUrl: null,
+    socialLinks: {
+      instagram: '@sol.pinturas',
+    },
+    isVerified: true,
+    createdAt: new Date('2024-09-01'),
+    updatedAt: new Date('2025-04-20'),
+  },
+];

@@ -1,0 +1,17 @@
+.adminLayout {
+  display: flex;
+  min-height: calc(100vh - var(--header-height));
+}
+
+.content {
+  flex: 1;
+  background-color: var(--color-parchment);
+  padding: var(--space-8);
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: var(--space-4);
+  }
+}
